@@ -1,0 +1,490 @@
+<mxfile host="65bd71144e">
+    <diagram id="5Yrnw2fGGkwKKGHyeSQu" name="Page-1">
+        <mxGraphModel dx="5395" dy="1543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#F4F1DE" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="_init_&lt;br&gt;(self, x, y)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="-980" y="70" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="self.reset&lt;br&gt;(x, y)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="-980" y="190" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="6" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="update&lt;br&gt;(self, game_over)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="40" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="7" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="dx = 0" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="160" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="9" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="dy = 0" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="270" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="11" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#F4F1DE;" parent="1" source="11" target="92" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="860" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="if game_over&lt;br&gt;== 0:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="400" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="13" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="13" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="if key[pygame.&lt;br&gt;K_a]:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="670" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="15" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="keys = pygame.key.get&lt;br&gt;pressed()" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="540" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="dx - = 5" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="820" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="20" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="20" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="if key[pygame.&lt;br&gt;K_d]:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="670" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="dx - = 5" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="820" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="24" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="24" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="if key[pygame.&lt;br&gt;K_SPACE]&lt;br&gt;and&lt;br&gt;self.jumped&lt;br&gt;== False:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="670" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="25" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="self.vel_y = -15" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="820" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="self.jumped = True" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="950" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="30" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="30" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="if key[pygame.&lt;br&gt;K_SPACE] &lt;br&gt;== False and&amp;nbsp;&lt;br&gt;self.in_air&lt;br&gt;== False:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="-20" y="670" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="self.jumped = False" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="-30" y="820" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="44" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="self.vel_y += 1" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="-200" y="820" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="46" target="48" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="46" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="if self.vel_y&lt;br&gt;&amp;gt; 10:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="-190" y="935" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="self.vel_y = 10" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="-200" y="1080" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="50" target="52" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="dy += self.vel_y" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="-390" y="950" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="52" target="54" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="self.in_air = True" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="-590" y="950" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="54" target="56" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#F4F1DE;" parent="1" source="54" target="75" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-1270" y="985" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="for tile in &lt;br&gt;world.title_list:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="-780" y="935" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="56" target="58" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="56" target="60" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="if tile[1].colliderect&lt;br&gt;(self.rect.x + dx,&lt;br&gt;self.rect.y,&lt;br&gt;self.width,&lt;br&gt;self.height):" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="-790" y="1090" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="dx = 0" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="-790" y="1240" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="60" target="62" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="if tile[1].colliderect&lt;br&gt;(self.rect.x , &lt;br&gt;self.rect.y + dy,&lt;br&gt;self.width,&lt;br&gt;self.height):" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="-970" y="1090" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="62" target="64" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="62" target="66" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="if self.vel_y &amp;lt; 0 :" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="-960" y="1240" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="dy = title[1].bottom -&amp;nbsp;&lt;br&gt;self.rect.top" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="-970" y="1390" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="66" target="68" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="elif self.vel_y &amp;gt;=0:&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="-1140" y="1240" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="68" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="dy = tile[1].top -&amp;nbsp;&lt;br&gt;self.rect.bottom" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="-1150" y="1390" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="70" target="71" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="self.vel_y = 0" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="-1150" y="1510" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="self.in_air = False" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="-1150" y="1630" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="75" target="76" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="75" target="78" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="if pygame.sprite.&lt;br&gt;spritecollide(self, blob_group, False):" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="-1410" y="935" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="game_over = -1" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="-1420" y="1100" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="78" target="80" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="78" target="82" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="if pygame.sprite.&lt;br&gt;spritecollide(self, lava_group, False):" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="-1610" y="935" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="game_over = -1" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="-1620" y="1100" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="82" target="83" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="82" target="164">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="if pygame.sprite.&lt;br&gt;spritecollide(self, door_group, False):" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="-1790" y="935" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="game_over = -2" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="-1800" y="1100" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="92" target="93" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="92" target="97" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="elif game_over == -1:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="390" width="130" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="93" target="95" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="if self.rect.y &amp;gt; 200:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="932.5" y="570" width="105" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="self.rect.y -= 5" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="925" y="740" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="97" target="99" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="screen.blit(self.image, self.rect)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="1250" y="410" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="return game_over" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="1550" y="420" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#F4F1DE;" parent="1" source="101" target="106" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1380" y="820" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="101" value="reset (self, x, y,):" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="1330" y="700" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="106" target="108" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="&lt;span&gt;load_player = pygame&lt;/span&gt;&lt;br&gt;&lt;span&gt;.image.load&lt;/span&gt;&lt;br&gt;&lt;span&gt;(&quot;images/blob.png&quot;)&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="1330" y="820" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="108" target="109" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="&lt;div&gt;self.image = pygame.&lt;/div&gt;&lt;div&gt;transform&lt;/div&gt;&lt;div&gt;.scale(load_player,(45,37))&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="940" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="109" target="111" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="&lt;div&gt;self.rect = self.image.get_rect()&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="1060" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="111" target="113" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="&lt;div&gt;self.rect.x = x&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="1180" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="self.rect.y = y" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="1305" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="117" target="122" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="self.width = self.image.get_width()" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="1430" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="122" target="124" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="self.height = self.image.get_height()" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="1550" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="124" target="126" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="self.vel_y = 0" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="1670" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="126" target="128" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="self.jumped = False" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="1790" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="128" target="132" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="self.in_air = True" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="1910" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" value="mixer.music.play()" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="2050" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="765" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="680" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="765" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="685" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="770" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="680" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="770" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="-120" y="1035" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="-240" y="950" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="-710" y="1200" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="-840" y="1105" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="-900" y="1210" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="-900" y="1350" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="-1010" y="1255" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="-1080" y="1340" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="-1330" y="1035" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="-1470" y="950" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="-1530" y="1035" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="-1670" y="950" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="-1720" y="1035" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="500" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="410" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="932.5" y="530" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="1070" y="420" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="164" target="166">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="164" target="194">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" value="for platform in platform_group:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-2040" y="935" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="166" target="168">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="166" target="179">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" value="if platform.rect.colliderect(self.rect.x + dx, self.rect.y, self.width, self.height):" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-2070" y="1100" width="160" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" value="dx = 0" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-2050" y="1290" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="172" target="174">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="if abs((self.rect.top + dy) - platform.rect.bottom) &amp;lt; col_thresh:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-2370" y="1300" width="160" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="174" target="175">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="self.vel_y = 0" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-2350" y="1500" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="dy = platform.rect.bottom - self.rect.top" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-2350" y="1650" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="179" target="172">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="179" target="182">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" value="if platform.rect.colliderect(self.rect.x , self.rect.y + dy, self.width, self.height):" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-2370" y="1100" width="160" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="182" target="184">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="182" target="190">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="elif abs((self.rect.bottom + dy) - platform.rect.top) &amp;lt; col_thresh:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-2660" y="1100" width="160" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="184" target="185">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="self.rect.bottom = platform.rect.top - 1" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-2640" y="1330" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="185" target="188">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="self.in_air = False" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-2640" y="1500" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" value="dy = 0" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-2640" y="1650" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="190" target="192">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" value="if platform.move_x != 0:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-2950" y="1100" width="160" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="self.rect.x += platform.move_direction" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-2930" y="1325" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="194" target="195">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="self.rect.x += dx" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-3200" y="1130" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" value="self.rect.y += dy" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" vertex="1" parent="1">
+                    <mxGeometry x="-3200" y="1315" width="120" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
